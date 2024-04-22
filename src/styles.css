@@ -5,32 +5,35 @@
 }
 
 body {
-  background-color: #222;
+  background-color: #000000;
+}
+header{
+  z-index: 9999;
 }
 
-
 #menu{
-  /* width: 100%; */
   height: 80px;
   display: flex;
-
   align-items: center;
   padding-left: 100px;
   color: rgb(255, 255, 255);
-  /* background: rgb(0,0,0); */
   background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(43,0,162,0.4514180672268907) 95%);
-  z-index: 9999999;
+  z-index: 99999;
 }
 
 #menu #name {
   font-family: "Nunito", sans-serif;
   font-weight: 800;
   font-size: 25px;
+  z-index: 9999;
+
 }
 
 #menu #button{
   width: 80px;
   margin-left: 50px;
+  z-index: 9999;
+
 }
 
 #menu #button span{
@@ -39,11 +42,15 @@ body {
   font-size: 15px;
   margin: 20px;
   color: rgb(187, 187, 187);
+  z-index: 9999;
+
 }
 
 #menu #button span:hover {
   cursor: pointer;
   color: white;
+  z-index: 9999;
+
 }
 /* 
 =======================================
@@ -51,7 +58,11 @@ body {
 =======================================
 */
 
-.code {
+.img1 {
+  position: absolute;
+  top: 0;
+}
+.img2 {
   position: absolute;
   top: 0;
 }
@@ -64,9 +75,11 @@ body {
   justify-content: center;
 }
 #icons ion-icon {
-  margin-top: 7%;
+  margin-top: 6%;
   color: rgb(187, 187, 187);
   cursor: pointer;
+  /* z-index: -1; */
+
 }
 #icons ion-icon:hover {
   color:  rgb(53, 13, 165);
@@ -91,24 +104,22 @@ body {
   left: 100px;
 }
 
-#meuni_inicial {
+#meunu_inicial {
   width: 1300px;
   height: 450px;
   /* border: 1px solid; */
   position: relative;
 }
-#txt {
-  
-}
-
 .titulo {
   color: rgb(0, 97, 0);
   font-family: "Nunito", sans-serif;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   top: 20px;
   margin-left: 190px;
+  z-index: -1;
+
 }
 .p1 {
   color: white;
@@ -117,7 +128,8 @@ body {
   top: 40px;
   margin-left: 190px;
   font-weight: 900;
-  font-size: 160px;
+  font-size: 130px;
+  z-index: -1;
 }
 .p2 {
   background: linear-gradient(90deg, rgba(0,158,162,1) 0%, rgba(43,0,162,1) 100%);
@@ -125,11 +137,14 @@ body {
   -webkit-text-fill-color: transparent;
   font-family: "Arimo", sans-serif;
   position: absolute;
-  top: 190px;
+  top: 160px;
   margin-left: 190px;
   font-weight: 900;
-  font-size: 160px;
-  /* animation: plavaras 30s infinite; */
+  font-size: 130px;
+  overflow: hidden;
+  width: 0;
+  animation: write 3s steps(23, end) infinite;
+  z-index: -1;
 }
 
 .p3 {
@@ -138,63 +153,74 @@ body {
   font-weight: 700;
   font-size: 20px;
   position: absolute;
-  top: 370px;
+  top: 300px;
   margin-left: 190px;
+  z-index: -1;
 }
 
 .p2 span::before {
   content: "";
   background: linear-gradient(90deg, rgba(0,158,162,1) 0%, rgba(43,0,162,1) 100%);
   background-clip: text;
-  animation: plavaras 20s infinite;
+  animation: plavaras 6s infinite;
+
 }
-
-.p2 span::after {
-  content: "";
-  position: absolute;
-  height: 80%;
-  border-left: 3px solid rgba(43,0,162,1);
-  /* border: 1px solid; */
-  opacity: 1;
-  animation: cursor .8s infinite, digita 20s steps(15) infinite ;
-  right: -15px;
-  width: calc(100% + 25px);
-  background-color: #222;
-  top: 15px;
-  
-}
-
-
-@keyframes digita {
-  10%,15%,30%,35%,50%,55%,70%,75%,90%,95% {
-    width: 0;
-  }
-  5%,20%,25%,40%,45%,60%,65%,80%,85% {
-    width: calc(100% + 15px);
-
+@keyframes write {
+  50% {
+    width: 13ch;
   }
 }
-
-@keyframes cursor {
-  0%{
-    border-left: 3px solid rgba(43,0,162,1);
-  }
-}
-
 @keyframes plavaras {
-  0%, 20% {
+  0%, 49% {
     content: "STUDENT.";
   }
-  21%, 40% {
+  50%, 100% {
     content: "DEVELOPER.";
   }
-  41%, 60% {
-    content: "STUDENT.";
-  }
-  61%, 80% {
-    content: "DEVELOPER.";
-  }
-  81%, 100% {
-    content: "STUDENT.";
-  }
+}
+
+
+
+img{
+  position: absolute;
+  /* backgroundColor: ; */
+
+  z-index: -80;
+  /* opacity: 0.08; */
+}
+
+.img1{
+  position: absolute;
+  /* width: 60%; */
+  width: 100%;
+  height: 100vh;
+  z-index: -99;
+  opacity: 0.08;
+}
+
+#txt2 {
+  width: 150px;
+  height: 100vh;
+  /* border: 1px solid white; */
+  position: absolute;
+  background-color: rgba(32, 32, 32, 0.253);
+  top: 0px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -99999;
+}
+.name2 {
+  /* font-family: "Nunito", sans-serif; */
+  font-family: "Arimo", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  position: relative;
+  top: 8%;
+  color: rgb(187, 187, 187);
+  /* border: 1px solid; */
+  width: 30px;
+  height: 240px;
+  text-align: center;
 }
