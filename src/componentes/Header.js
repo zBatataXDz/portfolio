@@ -9,17 +9,13 @@ export default function Header() {
                     </p>
                 </div>
                 <div id="button">   
-                    <span>Inicio</span>|
-                    <span>Sobre</span>|
-                    <span>Experiência</span>|
-                    <span>Contato</span>
+                    {/* <span> <a href="#section1">Inicio</a> </span>| */}
+                    <span> <a href="#section3">Sobre</a> </span>|
+                    <span> <a href="#section4">Experiência</a> </span>|
+                    <span> <a href="#section3">Contato</a> </span>
                 </div>
    
             </div>
         </header>
     )
 }
-
-
-
-

@@ -29,24 +29,35 @@ header{
 
 }
 
-#menu #button{
+#menu #button a{
   width: 80px;
   margin-left: 50px;
   z-index: 9999;
+  
+} 
 
-}
-
-#menu #button span{
+#menu #button a{
   font-family: "Nunito", sans-serif;
   font-weight: 800;
   font-size: 15px;
   margin: 20px;
   color: rgb(187, 187, 187);
   z-index: 9999;
+  position: relative;
+  /* left: 30px; */
+  /* border: 1px solid; */
+  text-decoration: none;
+}
+#button {
+  position: relative;
+  width: 450px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
 
 }
 
-#menu #button span:hover {
+#menu #button a:hover {
   cursor: pointer;
   color: white;
   z-index: 9999;
@@ -123,7 +134,7 @@ header{
 }
 .p1 {
   color: white;
-  font-family: "Arimo", sans-serif;
+  font-family: "DM Sans", sans-serif;
   position: absolute;
   top: 40px;
   margin-left: 190px;
@@ -135,7 +146,7 @@ header{
   background: linear-gradient(90deg, rgba(0,158,162,1) 0%, rgba(43,0,162,1) 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Arimo", sans-serif;
+  font-family: "DM Sans", sans-serif;
   position: absolute;
   top: 160px;
   margin-left: 190px;
@@ -181,12 +192,9 @@ header{
 
 
 
-img{
+.imagem img{
   position: absolute;
-  /* backgroundColor: ; */
-
   z-index: -80;
-  /* opacity: 0.08; */
 }
 
 .img1{
@@ -213,7 +221,7 @@ img{
 }
 .name2 {
   /* font-family: "Nunito", sans-serif; */
-  font-family: "Arimo", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 800;
   font-size: 25px;
   position: relative;
@@ -224,3 +232,154 @@ img{
   height: 240px;
   text-align: center;
 }
+
+
+
+/* 
+=======================================
+=========== MAIN SECTION 2 ============
+=======================================
+*/
+#section2 {
+  height: 413px;
+  flex-direction: column;
+  border: 1px solid;
+}
+
+#section2 {
+  /* color: white; */
+  position: relative;
+  top: -80px;
+  /* background-color: beige; */
+}
+
+#divide {
+  display: flex;
+  justify-content: center;
+}
+
+#info {
+  position: relative;
+  background-color: rgb(53, 13, 165);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.abilidades {
+  display: flex;
+}
+
+.abilidades div {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  width: 130px;
+  height: 240px;
+  /* border: 1px solid; */
+}
+
+
+#info::-webkit-scrollbar {
+  height: 9px;
+  background: transparent;
+}
+
+#info::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, rgba(0,158,162,1) 0%, rgba(43,0,162,1) 100%);
+  background-color: #000000;
+  border-radius: 10px;
+}
+
+#info::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#info::-webkit-scrollbar-corner {
+  background: transparent; 
+}
+.abilidades .ab{
+  display: flex;
+  justify-content: center;
+}
+
+.abilidades img{
+  position: relative;
+  /* margin-top: 0; */
+  width: 100px;
+  height: 100px;
+}
+
+.abilidades p{
+  position: absolute;
+  bottom: 0;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+/* 
+=======================================
+=========== MAIN SECTION 3 ============
+=======================================
+*/
+
+#section3 {
+  height: 80vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+
+#sobre {
+  width: 600px;
+  height: 300px;
+  margin-left: 100px;
+}
+.titulo_sobre {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(0, 97, 0);
+  position: relative;
+  top: 15px;
+  z-index: -1;
+}
+.titulo_sobre2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  font-size: 76px;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(0,158,162,1) 0%, rgba(43,0,162,1) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top: 3px;
+}
+.paragrafo{
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.caixa_image_pc {
+  position: absolute;
+  right: 100px;
+}
+.caixa_image_pc img{
+  width: 450px;
+  position: relative;
+  top: -310px;
+  z-index: -1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 28px 0px rgb(32, 32, 32);
+}
+/* 
+=======================================
+=========== MAIN SECTION 3 ============
+=======================================
+*/
