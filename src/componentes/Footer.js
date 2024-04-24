@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <div id="footer_img">
                 <div id="footer_img2">
-                    <img src="/levi_sem_fundo.ico" 
+                    <img src="levi_sem_fundo.ico"
                         alt="codigo logico">
                     </img>
                 </div>

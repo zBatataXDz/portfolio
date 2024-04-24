@@ -10,7 +10,7 @@ export default function Main() {
         <main id="main">
             <section id="section1">
                 <div className='imagem'>
-                    <img className="img1" src="/image/code.png" 
+                    <img className="img1" src="image/code.png" 
                         alt="codigo logico">
                     </img>
                 </div>
@@ -40,33 +40,33 @@ export default function Main() {
             </section>
             <section id='section2'>
                 <div id='divide'>
-                    <img src='/image/habilities.3d6653d3.svg' alt=''></img>
+                    <img src='image/habilities.3d6653d3.svg' alt=''></img>
                  
                 </div>
                 <div id='info'>
                     <div className='abilidades'>
                         <div className='ab'>
-                            <img src='/image/html.svg' alt='css3 icon'></img>
+                            <img src='image/html.svg' alt='css3 icon'></img>
                             <p>HTML5</p>
                         </div>
                         <div className='ab'>
-                            <img src='/image/css3.svg' alt='css3 icon'></img>
+                            <img src='image/css3.svg' alt='css3 icon'></img>
                             <p>CSS3</p>
                         </div>
                         <div className='ab'>
-                            <img src='/image/js.svg' alt='js icon'></img>
+                            <img src='image/js.svg' alt='js icon'></img>
                             <p>JAVASCRIPT</p>
                         </div>
                         <div className='ab'>
-                            <img src='/image/lua.svg' alt='lua icon'></img>
+                            <img src='image/lua.svg' alt='lua icon'></img>
                             <p>LUA</p>
                         </div>
                         <div className='ab'>
-                            <img src='/image/jquery.svg' alt='jquery icon'></img>
+                            <img src='image/jquery.svg' alt='jquery icon'></img>
                             <p>JQUERY</p>
                         </div>
                         <div className='ab'>
-                            <img src='/image/react.svg' alt='react icon'></img>
+                            <img src='image/react.svg' alt='react icon'></img>
                             <p>REACT</p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function Main() {
                         Olá! Meu nome é Luan Oliveira Diniz, mas sou mais conhecido como Levi. Tenho 23 anos e estou focado no estudo de desenvolvimento Full-Stack. Tenho experiência com projetos pessoais na plataforma FiveM, onde forneço diversas soluções para a comunidade e trabalho com interfaces interativas. Estou me preparando por conta própria para conquistar uma vaga de estágio e entrar na área de desenvolvimento Full-Stack, onde pretendo aprimorar cada vez mais meus conhecimentos e habilidades.
                     </p>
                     <div className='caixa_image_pc'>
-                        <img src='/image/meupc.jpg'
+                        <img src='image/meupc.jpg'
                             alt='imagem do meu pc'
                         ></img>
                     </div>
@@ -101,7 +101,7 @@ export default function Main() {
                     <div id='experiencia'>
                         <div className='caixa_experiencia'>
                             <div className='experiencia_fivem'>
-                                <img src='/image/fivem.svg'
+                                <img src='image/fivem.svg'
                                     alt='imagem do meu pc'
                                 ></img>
                                 <p className='titulo_fivem'>FiveM</p>
