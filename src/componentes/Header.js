@@ -12,7 +12,7 @@ export default function Header() {
                     {/* <span> <a href="#section1">Inicio</a> </span>| */}
                     <span> <a href="#section3">Sobre</a> </span>|
                     <span> <a href="#section4">Experiência</a> </span>|
-                    <span> <a href="#section3">Contato</a> </span>
+                    <span> <a href="#section5">Contato</a> </span>
                 </div>
    
             </div>
