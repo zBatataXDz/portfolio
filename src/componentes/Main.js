@@ -128,8 +128,8 @@ export default function Main() {
                         <div className='caixa_section5_txt'> 
                             <p className='caixa_section5_p1'>Contato</p>
                             <p className='caixa_section5_p2'>CONTRATE</p>
-                            <p className='caixa_section5_p3'>MEU SERVOÇO</p>
-                            <p className='caixa_section5_p4'>Entre em contato utilizando os botões á esquerda.</p>
+                            <p className='caixa_section5_p3'>MEU SERVIÇO</p>
+                            <p className='caixa_section5_p4'>Entre em contato utilizando os botões à esquerda.</p>
                         </div>
                     </div>
                 </div>
