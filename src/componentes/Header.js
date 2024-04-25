@@ -5,7 +5,7 @@ export default function Header() {
                 <div id="name">
                     <p>
                         levi
-                        <span style={{ color: 'rgb(125, 0, 184)' }}>dev</span>
+                        <span style={{ color: 'rgb(53, 13, 165)' }}>dev</span>
                     </p>
                 </div>
                 <div id="button">   

@@ -14,9 +14,9 @@ export default function Main() {
                         alt="codigo logico">
                     </img>
                 </div>
-                    <div id="txt2">
-                        <p className="name2">L E V I  <span style={{ color: 'rgb(53, 13, 165)' }}>D E V</span></p>
-                    </div>
+                <div id="txt2">
+                    <p className="name2">L E V I  <span style={{ color: 'rgb(53, 13, 165)' }}>D E V</span></p>
+                </div>
                 <div id="meunu_inicial">
                     <div id="icons">
                         <div className="instagram">
@@ -41,7 +41,6 @@ export default function Main() {
             <section id='section2'>
                 <div id='divide'>
                     <img src='image/habilities.3d6653d3.svg' alt=''></img>
-                 
                 </div>
                 <div id='info'>
                     <div className='abilidades'>

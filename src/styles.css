@@ -90,8 +90,6 @@ header{
   margin-top: 6%;
   color: rgb(187, 187, 187);
   cursor: pointer;
-  /* z-index: -1; */
-
 }
 #icons ion-icon:hover {
   color:  rgb(53, 13, 165);
@@ -117,7 +115,7 @@ header{
 }
 
 #meunu_inicial {
-  width: 1300px;
+  width: 100%;
   height: 450px;
   /* border: 1px solid; */
   position: relative;
@@ -131,7 +129,6 @@ header{
   top: 20px;
   margin-left: 190px;
   z-index: -1;
-
 }
 .p1 {
   color: white;
@@ -439,7 +436,7 @@ header{
   z-index: -1;
 
 }
-.paragrafos4  .titulo_trabalhos{
+.paragrafos4  .titulo_trabalhos {
   color: rgb(0, 97, 0);
   font-family: "Nunito", sans-serif;
   font-weight: 600;
@@ -553,7 +550,7 @@ header{
 }
 
 .caixa_section5_txt {
-  width: 600px;
+  width: 98%;
   height: 220px;
   /* border: 1px solid rgb(255, 106, 0); */
   position: absolute;
@@ -652,3 +649,372 @@ footer {
 }
 
 
+@media (max-width: 1300px) {
+  .titulo  {
+    font-size: 18px;
+    top: 29px;
+  }
+  .p1  {
+    font-size: 100px;
+  }
+  .p2  {
+    font-size: 100px;
+    top: 140px;
+  }
+  .p3 {
+    font-size: 17px;
+    top: 250px;
+  }
+  #icons ion-icon {
+    margin-top: 5%;
+  }
+  .name2 {
+    top: 3%;
+  }
+  .titulo_sobre {
+    font-size: 18px;
+  }
+  .titulo_sobre2 {
+    font-size: 70px;
+  }
+  #sobre {
+    width: 440px;
+  }
+  .caixa_image_pc img {
+    width: 400px;
+  }
+  .paragrafos4  .titulo_trabalhos {
+    font-size: 17px;
+  }
+  .subTitulo_trabalhos {
+    font-size: 70px;
+  }
+  #experiencia {
+    width: 370px;
+    height: 230px;
+  }
+  .caixa_section5_p1 {
+    font-size: 20px;
+  }
+  .caixa_section5_p2 {
+    font-size: 70px;
+  }
+  .caixa_section5_p3 {
+    font-size: 70px;
+  }
+  .caixa_section5_p3 {
+    font-size: 70px;
+  }
+  .caixa_section5_p4 {
+    font-size: 18px;
+  }
+  .caixa_icones div {
+    width: 150px;
+    height: 150px;
+  }
+  #footer_img2 img {
+    width: 160px;
+    height: 160px;
+  }
+  .footer_txt_butoon a {
+    margin: 24px;
+  }
+  footer {
+    height: 250px;
+  }
+}
+
+
+
+@media (max-width: 1070px) {
+
+  #button {
+    display: none;
+  }
+
+  .titulo  {
+    font-size: 15px;
+    top: 29px;
+  }
+  .p1  {
+    font-size: 87px;
+  }
+  .p2  {
+    font-size: 87px;
+    top: 120px;
+  }
+  .p3 {
+    font-size: 14px;
+    top: 230px;
+  }
+  #icons ion-icon {
+    margin-top: 4%;
+  }
+  .name2 {
+    top: 3%;
+  }
+  .titulo_sobre {
+    font-size: 14px;
+  }
+  .titulo_sobre2 {
+    font-size: 60px;
+  }
+  #sobre {
+    width: 360px;
+  }
+  .caixa_image_pc img {
+    width: 300px;
+    top: -270px;
+  }
+
+
+  .paragrafos4  .titulo_trabalhos {
+    font-size: 14px;
+  }
+  .subTitulo_trabalhos {
+    font-size: 60px;
+  }
+  #experiencia {
+    width: 350px;
+    height: 200px;
+  }
+  .experiencia_fivem img{
+    width: 60px;
+    height: 60px;
+    top: 10px;
+  }
+  .experiencia_fivem .titulo_fivem{
+    font-weight: 800;
+    font-size: 19px;
+    top: 10px;
+  }
+  .paragrafo_fivem {
+    font-size: 14px;
+  }
+
+
+  .caixa_section5_p1 {
+    font-size: 17px;
+  }
+  .caixa_section5_p2 {
+    font-size: 50px;
+  }
+  .caixa_section5_p3 {
+    font-size: 50px;
+    top: -5px;
+  }
+  .caixa_section5_p4 {
+    font-size: 15px;
+    top: -5px;
+  }
+  .caixa_icones div {
+    width: 140px;
+    height: 140px;
+  }
+  #footer_img2 img {
+    width: 140px;
+    height: 140px;
+    top: -29px;
+  }
+  .footer_txt_butoon a {
+    margin: 20px;
+  }
+  footer {
+    height: 220px;
+  }
+}
+
+
+
+
+@media (max-width: 880px) {
+  #section1 {
+    height: 100vh;
+
+  }
+  .titulo  {
+    font-size: 14px;
+    top: 29px;
+  }
+  .p1 {
+    font-size: 60px;
+  }
+  .p2 {
+    font-size: 60px;
+    top: 100px;
+  }
+  .p3 {
+    font-size: 14px;
+    top: 180px;
+  }
+  #icons ion-icon {
+    margin-top: 9%;
+  }
+  .instagram ion-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .discord ion-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .github ion-icon {
+    width: 20px;
+    height: 20px;
+  }
+  #meunu_inicial {
+    width: 550px;
+    height: 250px;
+  }
+  .name2 {
+    top: 13%;
+    width: 10px;
+    font-size: 15px;
+  }
+  #txt2 {
+    width: 60px;
+    height: 100vh;
+
+  }
+
+
+
+
+  #section2 {
+    height: 313px;
+    /* flex-direction: column; */
+    /* border: 1px solid; */
+  }
+  #divide {
+    height: 60px;
+  }
+  #info {
+    height: 200px;
+  }
+  .abilidades img{
+    width: 50px;
+    height: 50px;
+  }
+  .abilidades div {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* position: relative; */
+    width: 120px;
+    height: 120px;
+  }
+
+
+  
+  #caixa_arroow {
+    top:-100px;
+  }
+  #section3 {
+    height: 400px;
+    position: relative;
+    top: -60px;
+  }
+  .titulo_sobre {
+    font-size: 14px;
+  }
+  .titulo_sobre2 {
+    font-size: 40px;
+    top: 10px;
+  }
+  #sobre {
+    width: 300px;
+    height: 400px;
+  }
+  .caixa_image_pc img {
+    width: 240px;
+    top: -230px;
+  }
+  .paragrafo {
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+  }
+
+
+  
+
+  .paragrafos4  .titulo_trabalhos {
+    font-size: 14px;
+  }
+  .subTitulo_trabalhos {
+    font-size: 40px;
+  }
+  #experiencia {
+    width: 250px;
+    height: 180px;
+  }
+  .experiencia_fivem img{
+    width: 50px;
+    height: 50px;
+    top: 10px;
+  }
+  .experiencia_fivem .titulo_fivem{
+    font-weight: 600;
+    font-size: 15px;
+    top: 10px;
+  }
+  .paragrafo_fivem {
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+
+
+  #section5 {
+    height: 250px;
+    /* border: 1px solid white; */
+  }
+  .caixa_section5_txt {
+    width: 280px;
+    height: 150px;
+    left: 340px;
+    top: 35px;
+  }
+  .caixa_section5_p1 {
+    font-size: 17px;
+  }
+  .caixa_section5_p2 {
+    font-size: 40px;
+  }
+  .caixa_section5_p3 {
+    font-size: 40px;
+    top: 1px;
+  }
+  .caixa_section5_p4 {
+    font-size: 13px;
+    top: -px;
+    font-weight: 600;
+    width: 200px;
+  }
+  #icons_section5 {
+    width: 230px;
+    height: 230px;
+    /* border: 1px solid white; */
+  }
+  .caixa_icones div {
+    width: 90px;
+    height: 90px;
+  }
+  #icons_section5 ion-icon {
+    width: 50px;
+    height: 50px;
+    
+  }
+
+
+  .footer_txt_butoon a {
+    margin: 10px;
+  }
+  #footer_img2 img {
+    width: 100px;
+    height: 100px;
+    top: -19px;
+  }
+  footer {
+    height: 180px;
+  }
+}
