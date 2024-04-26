@@ -10,7 +10,6 @@ export default function Footer() {
                     </img>
                 </div>
             </div>
-   
             <div id="footer_button">
                 <div className="footer_txt_butoon">
                     <a href="#section1">Inicio</a>|
