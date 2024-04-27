@@ -79,11 +79,11 @@ export default function Main() {
                     <p className='paragrafo'> 
                         Olá! Meu nome é Luan Oliveira Diniz, mas sou mais conhecido como Levi. Tenho 23 anos e estou focado no estudo de desenvolvimento Full-Stack. Tenho experiência com projetos pessoais na plataforma FiveM, onde forneço diversas soluções para a comunidade e trabalho com interfaces interativas. Estou me preparando por conta própria para conquistar uma vaga de estágio e entrar na área de desenvolvimento Full-Stack, onde pretendo aprimorar cada vez mais meus conhecimentos e habilidades.
                     </p>
-                    <div className='caixa_image_pc'>
-                        <img src='image/meupc.jpg'
-                            alt='imagem do meu pc'
-                        ></img>
-                    </div>
+                </div>
+                <div className='caixa_image_pc'>
+                    <img src='image/meupc.jpg'
+                        alt='imagem do meu pc'
+                    ></img>
                 </div>
             </section>
             <section id='section4'>
@@ -101,7 +101,7 @@ export default function Main() {
                         <div className='caixa_experiencia'>
                             <div className='experiencia_fivem'>
                                 <img src='image/fivem.svg'
-                                    alt='imagem do meu pc'
+                                    alt='logo do fivem'
                                 ></img>
                                 <p className='titulo_fivem'>FiveM</p>
                                 <p className='paragrafo_fivem'>Trabalho com desenvolvimento de interfaces web e correções de bugs para FiveM.</p>
@@ -136,3 +136,5 @@ export default function Main() {
         </main>
     );
 }
+
+

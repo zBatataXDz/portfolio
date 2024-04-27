@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -12,6 +13,7 @@ header{
 }
 
 #menu{
+  width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
@@ -19,7 +21,7 @@ header{
   color: rgb(255, 255, 255);
   background: linear-gradient(90deg, rgba(0,0,0,1) 22%, rgba(43,0,162,0.4514180672268907) 95%);
   z-index: 99999;
-  
+  position: fixed;
 }
 
 #menu #name {
@@ -117,8 +119,9 @@ header{
 #meunu_inicial {
   width: 100%;
   height: 450px;
-  /* border: 1px solid; */
+  /* border: 1px solid white; */
   position: relative;
+  
 }
 .titulo {
   color: rgb(0, 97, 0);
@@ -226,7 +229,7 @@ header{
   top: 8%;
   color: rgb(187, 187, 187);
   /* border: 1px solid; */
-  width: 30px;
+  width: 20px;
   height: 240px;
   text-align: center;
 }
@@ -241,7 +244,7 @@ header{
 #section2 {
   height: 413px;
   flex-direction: column;
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 
 #section2 {
@@ -252,8 +255,12 @@ header{
 }
 
 #divide {
+  position: relative;
   display: flex;
   justify-content: center;
+  top: 80px;
+  width: 100%;
+  height: 120px;
 }
 
 #info {
@@ -264,6 +271,8 @@ header{
   justify-content: center;
   align-items: center;
   overflow: auto;
+  z-index: -1;
+  top: 80px;
 }
 
 .abilidades {
@@ -363,10 +372,15 @@ header{
 .paragrafo{
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  z-index: -1;
 }
 .caixa_image_pc {
-  position: absolute;
-  right: 100px;
+  position: relative;
+  top: 350px;
+  display: flex;
+  /* left: 300px; */
+  left: 10%;
+
 }
 .caixa_image_pc img{
   width: 450px;
@@ -375,6 +389,7 @@ header{
   z-index: -1;
   border-radius: 20px;
   box-shadow: 0px 0px 28px 0px rgb(32, 32, 32);
+  display: block;
 }
 
 
@@ -408,6 +423,7 @@ header{
   justify-content: center;
   position: relative;
   top:-40px;
+  z-index: -1;
 
 }
 .arroow {
@@ -467,6 +483,8 @@ header{
   border-radius: 30px;
   transition: transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
   text-align: center;
+  z-index: -1;
+
 }
 #experiencia:hover {
   transform: scale(1.1);
@@ -519,6 +537,8 @@ header{
   /* border: 1px solid white; */
   color: rgb(53, 13, 165);
   left: -200px;
+  z-index: -1;
+
 }
 
 
@@ -648,6 +668,7 @@ footer {
   color: rgb(150, 150, 150);
 }
 
+/* ---------------------------1300PX------------------------------ */
 
 @media (max-width: 1300px) {
   .titulo  {
@@ -724,7 +745,7 @@ footer {
   }
 }
 
-
+/* -------------------------1070PX------------------------------ */
 
 @media (max-width: 1070px) {
 
@@ -824,8 +845,7 @@ footer {
   }
 }
 
-
-
+/* -------------------------880PX-------------------------------- */
 
 @media (max-width: 880px) {
   #section1 {
@@ -921,12 +941,13 @@ footer {
     top: 10px;
   }
   #sobre {
-    width: 300px;
+    width: 400px;
     height: 400px;
   }
   .caixa_image_pc img {
     width: 240px;
-    top: -230px;
+    top: -360px;
+    left: -10%;
   }
   .paragrafo {
     font-weight: 400;
@@ -1017,4 +1038,247 @@ footer {
   footer {
     height: 180px;
   }
+}
+
+/* -------------------------800PX------------------------------ */
+
+@media (max-width: 600px) {
+  #menu{
+    padding-left: 20px;
+  }
+  #txt2 {
+    display: none;
+  }
+  #section1 {
+    height: 100vh;
+  }
+  .titulo  {
+    font-size: 14px;
+    top: 29px;
+    left: -120px;
+  }
+  .p1 {
+    font-size: 40px;
+    left: -120px;
+  }
+  .p2 {
+    font-size: 40px;
+    top: 80px;
+    left: -120px;
+  }
+  .p3 {
+    font-size: 14px;
+    top: 125px;
+    left: -120px;
+  }
+  #icons ion-icon {
+    margin-top: 9%;
+  }
+  .instagram ion-icon {
+    width: 20px;
+    height: 20px;
+    left: 20px;
+  }
+  .discord ion-icon {
+    width: 20px;
+    height: 20px;
+    left: 20px;
+  }
+  .github ion-icon {
+    width: 20px;
+    height: 20px;
+    left: 20px;
+  }
+  #meunu_inicial {
+    width: 98%;
+    height: 200px;
+  }
+  .name2 {
+    top: 13%;
+    width: 10px;
+    font-size: 15px;
+  }
+  #txt2 {
+    width: 60px;
+    height: 100vh;
+  }
+
+
+
+
+  #section2 {
+    height: 313px;
+    /* flex-direction: column; */
+    /* border: 1px solid; */
+  }
+  #divide {
+    height: 60px;
+  }
+  #info {
+    height: 200px;
+  }
+  .abilidades img{
+    width: 50px;
+    height: 50px;
+  }
+  .abilidades div {
+    margin-left: 20px;
+    margin-right: 20px;
+    /* position: relative; */
+    width: 120px;
+    height: 120px;
+  }
+
+
+  
+  #caixa_arroow {
+    top:-100px;
+  }
+  #section3 {
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .titulo_sobre {
+    font-size: 14px;
+  }
+  .titulo_sobre2 {
+    font-size: 40px;
+    top: 10px;
+  }
+  #sobre {
+    display: block;
+    /* border: 1px solid purple; */
+    width: 100%;
+    height: 390px;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    /* top: -2%; */
+    /* margin: 20px; */
+  } 
+
+/* 
+  #sobre .caixa_image_pc img {
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  } */
+  .caixa_image_pc img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 240px;
+    top: -300px;
+    margin: 2px auto;
+    left: -40px;
+    /* border: 4px solid white; */
+  }
+  .paragrafo {
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+    /* border: 2px solid yellow; */
+  }
+
+
+  
+
+  .paragrafos4  .titulo_trabalhos {
+    font-size: 14px;
+  }
+  .subTitulo_trabalhos {
+    font-size: 40px;
+  }
+  #experiencia {
+    width: 250px;
+    height: 180px;
+  }
+  .experiencia_fivem img{
+    width: 50px;
+    height: 50px;
+    top: 10px;
+  }
+  .experiencia_fivem .titulo_fivem{
+    font-weight: 600;
+    font-size: 15px;
+    top: 10px;
+  }
+  .paragrafo_fivem {
+    font-size: 14px;
+    font-weight: 600;
+
+  }
+
+
+  #section5 {
+    height: 250px;
+    /* border: 1px solid white; */
+  }
+  .caixa_section5_txt {
+    width: 280px;
+    height: 150px;
+    left: 120px;
+    top: 35px;
+  }
+  .caixa_section5_p1 {
+    font-size: 17px;
+  }
+  .caixa_section5_p2 {
+    font-size: 40px;
+  }
+  .caixa_section5_p3 {
+    font-size: 40px;
+    top: 1px;
+  }
+  .caixa_section5_p4 {
+    font-size: 13px;
+    top: -px;
+    font-weight: 600;
+    width: 200px;
+  }
+  #icons_section5 {
+    width: 330px;
+    height: 230px;
+    left: -80px;
+    /* border: 1px solid white; */
+  }
+  .caixa_icones div {
+    position: relative;
+    top: -80px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+  }
+  #icons_section5 ion-icon {
+    width: 50px;
+    height: 50px;
+    
+  }
+
+
+  .footer_txt_butoon a {
+    margin: 10px;
+  }
+  #footer_img2 img {
+    width: 100px;
+    height: 100px;
+    top: -19px;
+  }
+  footer {
+    height: 180px;
+  }
+}
+
+/* --------------------------320PX----------------------------- */
+
+@media (max-width: 320px)  {
+  .caixa_image_pc {
+    display: none;
+    top: 0px;
+  }
+  
 }
