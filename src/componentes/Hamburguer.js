@@ -7,24 +7,36 @@ export default function Hamburger() {
         setMenuOpen(!menuOpen);
     };
 
+    const closeMenu = () => {
+        if (menuOpen) {
+            setMenuOpen(false);
+        }
+    };
+
     return (
         <header>
             <div id="hamburguer_bar"> 
                 <div id="container_burguer">
-                    <input id="toggleChecker" type="checkbox" onClick={toggleMenu}/>
-                    <label id="togglerLable" for="toggleChecker">
-                        <div class="checkboxtoggler">
-                            <div class="line-1"></div>
-                            <div class="line-2"></div>
-                            <div class="line-3"></div>
+                    <input
+                        id="toggleChecker"
+                        type="checkbox"
+                        onClick={toggleMenu}
+                        checked={menuOpen} // Ensures the checkbox is in sync with the state
+                        readOnly // This prevents users from directly changing the checkbox state
+                    />
+                    <label id="togglerLable" htmlFor="toggleChecker">
+                        <div className="checkboxtoggler">
+                            <div className="line-1"></div>
+                            <div className="line-2"></div>
+                            <div className="line-3"></div>
                         </div>
                     </label>
                 </div>
                 {menuOpen ? (
                     <div id="button_burguer">
-                        <a href="#section3">Sobre</a>
-                        <a href="#section4">Experiência</a>
-                        <a href="#section5">Contato</a>
+                        <a href="#section3" onClick={closeMenu}>Sobre</a>
+                        <a href="#section4" onClick={closeMenu}>Experiência</a>
+                        <a href="#section5" onClick={closeMenu}>Contato</a>
                     </div>
                 ) : null}
             </div>

@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --cor-branca: white ;
+  --cor-branca: white ;
 }
 
 #container_burguer {
@@ -14,7 +14,7 @@
   position: fixed;
   right: 50px;
   top: 30px;
-  z-index: 99999;
+  z-index: 99999999;
 }
 #button_burguer {
   position: fixed;
@@ -23,6 +23,7 @@
   border-end-end-radius: 20px;
   /* border: 1px solid green; */
   overflow: auto;
+  z-index: 99999999;
 }
 
 #button_burguer a{
@@ -40,6 +41,7 @@
   text-decoration: none;
   cursor: pointer;
   transition: font-size 0.3s ;
+  z-index: 99999999;
 }
 #button_burguer a:hover{
   color: white;
@@ -84,9 +86,9 @@
 }
 
 #toggleChecker:checked + #togglerLable .checkboxtoggler .line-1 {
-  -webkit-transform: rotate(45deg) translateY(8px) translateX(0.7em);
-  -ms-transform: rotate(45deg) translateY(8px) translateX(0.7em);
-  transform: rotate(45deg) translateY(8px) translateX(0.7em);
+  -webkit-transform: rotate(45deg) translateY(4px) translateX(0.7em);
+  -ms-transform: rotate(45deg) translateY(4px) translateX(0.7em);
+  transform: rotate(45deg) translateY(4px) translateX(6px);
 }
   
 #toggleChecker:checked + #togglerLable .checkboxtoggler .line-2 {

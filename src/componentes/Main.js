@@ -128,7 +128,7 @@ export default function Main() {
                             <p className='caixa_section5_p1'>Contato</p>
                             <p className='caixa_section5_p2'>CONTRATE</p>
                             <p className='caixa_section5_p3'>MEU SERVIÇO</p>
-                            <p className='caixa_section5_p4'>Entre em contato utilizando os botões à esquerda.</p>
+                            <p className='caixa_section5_p4'>Entre em contato utilizando os botões.</p>
                         </div>
                     </div>
                 </div>
