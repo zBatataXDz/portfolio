@@ -87,11 +87,11 @@ export default function Main() {
                 </div>
             </section>
             <section id='section4'>
-                <div id='caixa_arroow'>
+                {/* <div id='caixa_arroow'>
                     <div className='arroow'>
                         <ion-icon name="arrow-down-outline"></ion-icon>
                     </div>
-                </div>
+                </div> */}
                 <div  id='trabalhos'>
                     <div className='paragrafos4'>
                         <p className='titulo_trabalhos'>EXPERIÊNCIA</p>

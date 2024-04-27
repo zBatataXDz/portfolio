@@ -418,16 +418,13 @@ body {
 }
 
 
-#caixa_arroow {
-  /* height:100px; */
-  /* border: 1px solid gold; */
+/* #caixa_arroow {
   display: flex;
   justify-content: center;
   position: relative;
   top:-40px;
-  /* z-index: -1; */
 
-}
+} */
 .arroow {
   width: 80px;
   height: 80px;
@@ -448,7 +445,7 @@ body {
   width: 500px;
   height: 200px;
   position: relative;
-  top: -130px;
+  top: -80px;
   display: flex;
   justify-content: center;
   /* z-index: -1; */
@@ -479,13 +476,12 @@ body {
   width: 400px;
   height: 250px;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 150px;
   background-color: #181818;
   background-image: linear-gradient(160deg, #292929 0%, #111111 100%);
   border-radius: 30px;
   transition: transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
   text-align: center;
-
 }
 #experiencia:hover {
   transform: scale(1.1);
@@ -1276,6 +1272,13 @@ footer {
 
 /* --------------------------320PX----------------------------- */
 
+@media (max-width: 380px)  {
+  .caixa_image_pc {
+    /* display: none; */
+    top: 300px;
+  }
+  
+}
 @media (max-width: 320px)  {
   .caixa_image_pc {
     display: none;
@@ -1283,3 +1286,5 @@ footer {
   }
   
 }
+
+

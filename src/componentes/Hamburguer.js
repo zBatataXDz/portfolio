@@ -4,6 +4,7 @@ export default function Hamburger() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
+        // const scrollTop = event.target.scrollTop;
         setMenuOpen(!menuOpen);
     };
 
@@ -17,13 +18,7 @@ export default function Hamburger() {
         <header>
             <div id="hamburguer_bar"> 
                 <div id="container_burguer">
-                    <input
-                        id="toggleChecker"
-                        type="checkbox"
-                        onClick={toggleMenu}
-                        checked={menuOpen} // Ensures the checkbox is in sync with the state
-                        readOnly // This prevents users from directly changing the checkbox state
-                    />
+                    <input id="toggleChecker" type="checkbox" onClick={toggleMenu} checked={menuOpen} readOnly/>
                     <label id="togglerLable" htmlFor="toggleChecker">
                         <div className="checkboxtoggler">
                             <div className="line-1"></div>
