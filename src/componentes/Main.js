@@ -4,7 +4,7 @@ export default function Main() {
 
     const openInstagram = () => {window.open('https://www.instagram.com/leviidiniz/', '_blank');};
     const openDiscord= () => {window.open('https://discord.gg/CSUDMwttHx', '_blank');};
-    const openGitHub= () => {window.open('https://github.com/pzglevi/', '_blank');};
+    const openGitHub= () => {window.open('https://github.com/levi-diniz/', '_blank');};
 
     return (
         <main id="main">

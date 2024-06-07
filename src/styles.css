@@ -400,7 +400,7 @@ body {
 =======================================
 */
 #section4 {
-  height: 100vh;
+  height: 85vh;
   /* border: 1px solid yellow; */
   color: white;
 }
@@ -408,7 +408,8 @@ body {
 #trabalhos {
   /* width: 100%; */
   height: 100%;
-  /* border: 1px solid rgb(153, 0, 255); */
+  /* border-bottom:solid rgb(153, 0, 255); */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.164);
   position: relative;
   /* top: -31px; */
   display: flex;
@@ -671,6 +672,11 @@ footer {
 /* ---------------------------1300PX------------------------------ */
 
 @media (max-width: 1300px) {
+  #section4 {
+    height: 58vh;
+    /* border: 1px solid yellow; */
+    /* color: white; */
+  }
   .titulo  {
     font-size: 18px;
     top: 29px;
@@ -723,16 +729,15 @@ footer {
   /* .caixa_section5_p3 {
     font-size: 70px;
   } */
-  .caixa_section5_p3 {
-    font-size: 70px;
-    width: 100%;
-
+  .section5_txt{
+    position: relative;
+    top: 50px;
   }
   .caixa_section5_p4 {
     font-size: 18px;
   }
   .caixa_icones div {
-    top: 10px;
+    top: 170px;
   }
   #footer_img2 img {
     width: 160px;
@@ -749,6 +754,11 @@ footer {
 /* -------------------------1070PX------------------------------ */
 
 @media (max-width: 1070px) {
+
+  .section5_txt{
+    position: relative;
+    top: 10px;
+  }
 
   #button {
     display: none;
@@ -831,10 +841,12 @@ footer {
     font-size: 15px;
     top: -5px;
   }
-  .caixa_icones div {
-    /* width: 140px;
-    height: 140px; */
+  .caixa_icones {
+    position: relative;
+    top: -150px;
   }
+
+  
   #footer_img2 img {
     width: 140px;
     height: 140px;
@@ -844,7 +856,8 @@ footer {
     margin: 20px;
   }
   footer {
-    height: 220px;
+    /* height: 220px; */
+    display: none;
   }
 }
 
@@ -932,6 +945,9 @@ footer {
     top:-100px;
   }
   #section3 {
+    
+    padding-top: 50px;
+    /* left: -50px; */
     height: 400px;
     position: relative;
     top: -60px;
@@ -950,12 +966,16 @@ footer {
   .caixa_image_pc img {
     width: 240px;
     top: -360px;
-    left: -10%;
+    left: -30%;
   }
   .paragrafo {
     font-weight: 400;
     position: relative;
     top: 10px;
+  }
+  #sobre {
+    position: relative;
+    left: -50px;
   }
 
 
@@ -997,6 +1017,7 @@ footer {
     height: 150px;
     left: 340px;
     top: 35px;
+    
   }
   .caixa_section5_p1 {
     font-size: 17px;
@@ -1020,7 +1041,13 @@ footer {
     height: 230px;
     /* border: 1px solid white; */
   }
+  
+  .caixa_icones {
+    position: relative;
+    top: 10;
+  }
   .caixa_icones div {
+
     width: 90px;
     height: 90px;
   }
@@ -1041,12 +1068,21 @@ footer {
   }
   footer {
     height: 180px;
+    
   }
 }
-
+@media (max-width: 600px) {
+  .caixa_icones {
+    position: relative;
+    top: 0;
+  }
+}
 /* -------------------------800PX------------------------------ */
 
+
+
 @media (max-width: 600px) {
+
   #menu{
     padding-left: 20px;
   }
@@ -1055,6 +1091,14 @@ footer {
   }
   #section1 {
     height: 100vh;
+  }
+  #sobre {
+    position: relative;
+    left: 0px;
+  }
+
+  #experiencia{
+    top: -30px;
   }
   .titulo  {
     font-size: 14px;
@@ -1176,7 +1220,7 @@ footer {
     justify-content: center;
     position: relative;
     width: 240px;
-    top: -300px;
+    top: -280px;
     margin: 2px auto;
     left: -40px;
     /* border: 4px solid white; */
@@ -1219,7 +1263,7 @@ footer {
 
 
   #section5 {
-    height: 250px;
+    height: 450px;
     /* border: 1px solid white; */
   }
   .caixa_section5_txt {
@@ -1238,13 +1282,17 @@ footer {
     font-size: 40px;
     top: 1px;
     width: 100%;
+    
   }
 
 
-
+  .section5_txt{
+    position: relative;
+    top: -100px;
+  }
   .caixa_section5_p4 {
     font-size: 13px;
-    top: -px;
+    /* top: -px; */
     font-weight: 600;
     width: 200px;
   }
@@ -1256,7 +1304,7 @@ footer {
   }
   .caixa_icones div {
     position: relative;
-    top: -80px;
+    top: 150px;
     left: 100px;
     width: 80px;
     height: 80px;
@@ -1277,7 +1325,8 @@ footer {
     top: -19px;
   }
   footer {
-    height: 180px;
+    /* height: 180px; */
+    display: none;
   }
 }
 
