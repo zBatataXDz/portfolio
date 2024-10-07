@@ -45,12 +45,16 @@ export default function Main() {
                 <div id='info'>
                     <div className='abilidades'>
                         <div className='ab'>
-                            <img src='image/html.svg' alt='css3 icon'></img>
+                            <img src='image/html.svg' alt='HTML5 icon'></img>
                             <p>HTML5</p>
                         </div>
                         <div className='ab'>
                             <img src='image/css3.svg' alt='css3 icon'></img>
                             <p>CSS3</p>
+                        </div>
+                        <div className='ab'>
+                            <img src='image/icons8-tailwind-css-192.svg' alt='TAILWIND icon'></img>
+                            <p>TAILWIND CSS</p>
                         </div>
                         <div className='ab'>
                             <img src='image/js.svg' alt='js icon'></img>
@@ -65,8 +69,28 @@ export default function Main() {
                             <p>JQUERY</p>
                         </div>
                         <div className='ab'>
+                            <img src='image/icons8-visualizar-js.svg' alt='Vue icon'></img>
+                            <p>VUE</p>
+                        </div>
+                        <div className='ab'>
                             <img src='image/react.svg' alt='react icon'></img>
                             <p>REACT</p>
+                        </div>
+                        <div className='ab'>
+                            <img src='image/react.svg' alt='react icon'></img>
+                            <p>REACT NATIVE</p>
+                        </div>
+                        <div className='ab'>
+                            <img src='image/icons8-nextjs.svg' alt='Next icon'></img>
+                            <p>NEXTJS</p>
+                        </div>
+                        <div className='ab'>
+                            <img src='image/icons8-postgreesql.svg' alt='Vue icon'></img>
+                            <p>POSTGRESQL</p>
+                        </div>
+                        <div className='ab'>
+                            <img src='image/icons8-mysql.svg' alt='MYSQL icon'></img>
+                            <p>MYSQL</p>
                         </div>
                     </div>
                 </div>
@@ -77,7 +101,7 @@ export default function Main() {
                     <p className='titulo_sobre'>SOBRE</p>
                     <p className='titulo_sobre2'>QUEM SOU?</p>
                     <p className='paragrafo'> 
-                        Olá! Meu nome é Luan Oliveira Diniz, mas sou mais conhecido como Levi. Tenho 23 anos e estou focado no estudo de desenvolvimento Full-Stack. Tenho experiência com projetos pessoais na plataforma FiveM, onde forneço diversas soluções para a comunidade e trabalho com interfaces interativas. Estou me preparando por conta própria para conquistar uma vaga de estágio e entrar na área de desenvolvimento Full-Stack, onde pretendo aprimorar cada vez mais meus conhecimentos e habilidades.
+                        Olá! Meu nome é Luan, mas sou mais conhecido como Levi. Tenho 23 anos e estou focado no estudo de desenvolvimento Full-Stack. Tenho experiência com projetos pessoais na plataforma FiveM, onde forneço diversas soluções para a comunidade e trabalho com interfaces interativas. Estou me preparando por conta própria para conquistar uma vaga de estágio e entrar na área de desenvolvimento Full-Stack, onde pretendo aprimorar cada vez mais meus conhecimentos e habilidades.
                     </p>
                 </div>
                 <div className='caixa_image_pc'>
