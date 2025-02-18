@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Main() {
 
-    const openInstagram = () => {window.open('https://www.instagram.com/leviidiniz/', '_blank');};
+    const openInstagram = () => {window.open('https://www.instagram.com/batataxd001/', '_blank');};
     const openDiscord= () => {window.open('https://discord.gg/CSUDMwttHx', '_blank');};
-    const openGitHub= () => {window.open('https://github.com/levi-diniz/', '_blank');};
+    const openGitHub= () => {window.open('https://github.com/zbatataxdz/', '_blank');};
 
     return (
         <main id="main">
@@ -15,7 +15,7 @@ export default function Main() {
                     </img>
                 </div>
                 <div id="txt2">
-                    <p className="name2">L E V I  <span style={{ color: 'rgb(53, 13, 165)' }}>D E V</span></p>
+                    <p className="name2">B A T A T A  <span style={{ color: 'rgb(53, 13, 165)' }}>D E V</span></p>
                 </div>
                 <div id="meunu_inicial">
                     <div id="icons">
@@ -30,7 +30,7 @@ export default function Main() {
                         </div>
                     </div>
                     <div id="txt">
-                        <p className="titulo">👋 Olá, sou Levi Diniz</p>
+                        <p className="titulo">👋 Olá, me chamo Luiz Guilherme</p>
                         <p className="p1">FULL-STACK</p>
                         <p className="p2"> <span></span> </p>
                         <p className="p3">Desenvolvedor Full-Stack com habilidades em Javascript, React, Lua, e jQuery.</p>
@@ -101,7 +101,7 @@ export default function Main() {
                     <p className='titulo_sobre'>SOBRE</p>
                     <p className='titulo_sobre2'>QUEM SOU?</p>
                     <p className='paragrafo'> 
-                        Olá! Meu nome é Luan, mas sou mais conhecido como Levi. Tenho 23 anos e estou focado no estudo de desenvolvimento Full-Stack. Tenho experiência com projetos pessoais na plataforma FiveM, onde forneço diversas soluções para a comunidade e trabalho com interfaces interativas. Estou me preparando por conta própria para conquistar uma vaga de estágio e entrar na área de desenvolvimento Full-Stack, onde pretendo aprimorar cada vez mais meus conhecimentos e habilidades.
+                        Olá! Meu nome é Luiz Guilherme, mas sou mais conhecido como Batata. Tenho 21 anos e estou focado no estudo de desenvolvimento Full-Stack. Tenho experiência com projetos pessoais na plataforma FiveM, onde forneço diversas soluções para a comunidade e trabalho com interfaces interativas. Estou me preparando por conta própria para conquistar uma vaga de estágio e entrar na área de desenvolvimento Full-Stack, onde pretendo aprimorar cada vez mais meus conhecimentos e habilidades.
                     </p>
                 </div>
                 <div className='caixa_image_pc'>

@@ -4,8 +4,8 @@ export default function Header() {
             <div id="menu">
                 <div id="name">
                     <p>
-                        levi
-                        <span style={{ color: 'rgb(53, 13, 165)' }}>dev</span>
+                        Luiz
+                        <span style={{ color: 'rgb(53, 13, 165)' }}>Guilherme</span>
                     </p>
                 </div>
                 <div id="button">   
